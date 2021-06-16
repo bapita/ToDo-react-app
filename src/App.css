@@ -136,9 +136,41 @@ input:focus {
   font-size: 2rem;
 }
 
+.addItems .fa-edit{
+  margin-left: -2.9rem;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  color: rgb(5, 74, 248);
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+}
+
+.fa-edit {
+  margin-left: -6.5rem;
+  cursor: pointer;
+  pointer-events: auto;
+  z-index: 10;
+  color: rgb(255, 255, 255);
+  -webkit-transition: color 0.15s linear;
+  transition: color 0.15s linear;
+  font-size: 2rem;
+}
+
+.todo-btn {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
 
 .eachItem:hover .fa-trash-alt {
   color: rgb(214, 47, 61);
+}
+
+.eachItem:hover .fa-edit {
+  color: rgb(47, 214, 117);
 }
 
 .eachItem:hover h3 {
